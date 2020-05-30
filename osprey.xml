@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-  <manifest>
+<manifest>
 
   <include name="base-l-aosp.xml"/>
 
@@ -25,4 +25,4 @@
 	<remote name="mk"
 	    fetch="https://github.com/MishterKirby"
 	    revision="cm-12.1" />
-<manifest/>
+</manifest>
