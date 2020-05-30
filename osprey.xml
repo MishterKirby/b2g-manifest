@@ -25,4 +25,4 @@
 	<remote name="mk"
 	    fetch="https://github.com/MishterKirby"
 	    revision="cm-12.1" />
-</manifest>
+<manifest/>
