@@ -6,7 +6,7 @@
   <default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
 
   <!-- Moto G3 specific things -->
-  <!--project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/-->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project path="device/motorola/osprey" name="android_device_motorola_osprey" remote="mk"/>
   <project path="kernel/motorola/osprey" name="android_kernel_motorola_msm8916" remote="mk"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
@@ -21,7 +21,7 @@
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <!--project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/-->
   <project path="external/mm-dash" name="android_external_mm-dash" remote="mk"/>
-
+  <project path="vendor/motorola/osprey" name="android_vendor_motorola_osprey remote="mk"/>
 	<remote name="mk"
 	    fetch="https://github.com/MishterKirby"
 	    revision="cm-12.1" />
